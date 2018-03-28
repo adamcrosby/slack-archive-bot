@@ -10,7 +10,163 @@
       {
         "title": "lol",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 21,
+                "y": 420
+              },
+              "angle": 0,
+              "id": "d96b1fd1-119d-4b3e-963b-45c0c2caed5c",
+              "z": 1,
+              "hasOpenThreats": false,
+              "privilegeLevel": "1",
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "Low",
+                  "type": "Tampering",
+                  "title": "total has",
+                  "description": "wtf"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Nerds"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "d96b1fd1-119d-4b3e-963b-45c0c2caed5c"
+              },
+              "target": {
+                "id": "006e5f16-5b88-407a-9fdf-2352de268eb8"
+              },
+              "vertices": [],
+              "id": "dfb00bfc-3b4c-410b-aaf5-1a147e8d72e6",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "store shit",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 2,
+              "hasOpenThreats": true,
+              "isEncrypted": false,
+              "isPublicNetwork": true,
+              "protocol": "https",
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "has",
+                  "type": "Information disclosure",
+                  "description": "shit gets hacked",
+                  "mitigation": "noneomg"
+                }
+              ],
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 50,
+                "y": 50
+              },
+              "angle": 0,
+              "id": "006e5f16-5b88-407a-9fdf-2352de268eb8",
+              "z": 3,
+              "hasOpenThreats": false,
+              "isALog": true,
+              "isEncrypted": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "store 2"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "006e5f16-5b88-407a-9fdf-2352de268eb8"
+              },
+              "target": {
+                "id": "d96b1fd1-119d-4b3e-963b-45c0c2caed5c"
+              },
+              "vertices": [],
+              "id": "45c0faa6-f7f2-4020-8dc7-d797488d6b85",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.4824491175481512,
+                    "offset": -123.47709024569485
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "flow 3",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       }
     ],
     "reviewer": "dave"
